@@ -1,0 +1,36 @@
+@import "variable.styl"
+
+body, html
+  line-height: 1
+  font-family: 'PingFang SC', 'STHeitiSC-Light', 'Helvetica-Light', arial, sans-serif, 'Droid Sans Fallback'
+  user-select: none
+  -webkit-tap-highlight-color: transparent
+  background: $color-background
+  color: $color-text
+//   overflow-x: hidden
+  .link
+    cursor: pointer
+::-webkit-scrollbar   /* 滚动条整体部分 */
+    width:10px;
+    height 10px
+// ::-webkit-scrollbar-button  /* 滚动条两端的按钮 */
+//     width:10px;
+//     background-color: #333;
+      
+::-webkit-scrollbar-track   /* 外层轨道 */
+    border-radius: 10px
+    // background-color: #9999;
+// ::-webkit-scrollbar-track-piece   /*内层轨道，滚动条中间部分 */
+//     background-color: #9999;
+//     border-radius: 10px;
+      
+::-webkit-scrollbar-thumb {  /* 滑块 */
+    width:10px;
+    border-radius: 5px;
+    background: rgba(49,194,124, 0.4);
+}
+
+::-webkit-scrollbar-thumb:hover { /* 鼠标移入滑块 */
+    background: rgba(49,194,124, 0.7);
+}
+    
