@@ -1,6 +1,6 @@
-# jmusic
+# Jmusic
 
-> 仿qq音乐桌面版
+> 仿qq音乐网页版
 
 ## Build Setup
 
